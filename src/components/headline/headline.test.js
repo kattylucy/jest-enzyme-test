@@ -11,13 +11,12 @@ const setUp = (props={}) => {
 
 describe('Headline Component', () => {
 
- 
     describe('Have props', () => {
         let wrapper;
         beforeEach(() => {
             const props = {
                 header: 'Test header',
-                desc: 'Test desc'
+                desc: 'Test desc',
             };
             wrapper = setUp(props)
         });

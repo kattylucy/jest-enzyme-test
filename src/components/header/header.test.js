@@ -14,7 +14,7 @@ const setUp = (props={}) => {
 
 describe('Header Component', () => {
 
-    ///this will run before every single test
+    // ///this will run before every single test
     let component;
     beforeEach(() => {
         component = setUp();
@@ -29,4 +29,5 @@ describe('Header Component', () => {
         const wrapper = component.find('.logo');
         expect(wrapper.length).toBe(1)
     });
+
 });
